@@ -4,6 +4,7 @@ import './style.css';
 import PhoneContainer from './components/PhoneContainer';
 import TvContainer from './components/TvContainer';
 import TabletContainer from './components/TabletContainer';
+import CommentContainer from './components/CommentContainer';
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
           <PhoneContainer />
           <TvContainer />
           <TabletContainer />
+      </div>
+      <div>
+        <CommentContainer />
       </div>
     </Provider>
   );
